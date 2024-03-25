@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5419102283D5F1500628FE3 /* DessertDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5419101283D5F1500628FE3 /* DessertDetailViewModelTests.swift */; };
+		B5A54FAE283490F700D27A85 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A54FAD283490F700D27A85 /* UIView+.swift */; };
+		B5A54FB22834931A00D27A85 /* Loopable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A54FB12834931A00D27A85 /* Loopable.swift */; };
+		B5A84EE72832A55300FC362C /* DessertDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EE62832A55300FC362C /* DessertDetailViewController.swift */; };
+		B5A84EED2832C1C400FC362C /* IngrediantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EEC2832C1C400FC362C /* IngrediantsCell.swift */; };
+		B5A84EF028330F4900FC362C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EEF28330F4900FC362C /* Network.swift */; };
+		B5A84EF22833108000FC362C /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EF12833108000FC362C /* DessertViewModel.swift */; };
+		B5A84EF42833136100FC362C /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EF32833136100FC362C /* FetchRequest.swift */; };
+		B5A84EF62833196400FC362C /* DessertHomeViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EF52833196400FC362C /* DessertHomeViewController+.swift */; };
+		B5A84EF828331BAD00FC362C /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EF728331BAD00FC362C /* DessertModel.swift */; };
+		B5A84EFB2833239000FC362C /* DessertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EFA2833239000FC362C /* DessertTableViewCell.swift */; };
+		B5A84EFF283344EA00FC362C /* DessertDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84EFE283344EA00FC362C /* DessertDetailViewModel.swift */; };
+		B5A84F012833466B00FC362C /* DessertDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84F002833466B00FC362C /* DessertDetailModel.swift */; };
+		B5A84F0328334B1000FC362C /* DetailFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84F0228334B1000FC362C /* DetailFetchRequest.swift */; };
+		B5A84F0528334F2500FC362C /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A84F0428334F2500FC362C /* DessertDetailView.swift */; };
+		B5CC440E2833E77A00432713 /* DessertDetailView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC440D2833E77A00432713 /* DessertDetailView+.swift */; };
+		B5D773AD283C82DE006BC1B4 /* DessertViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D773AC283C82DE006BC1B4 /* DessertViewModelTests.swift */; };
+		B5FF624A282FD7700069509A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF6249282FD7700069509A /* AppDelegate.swift */; };
+		B5FF624C282FD7700069509A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF624B282FD7700069509A /* SceneDelegate.swift */; };
+		B5FF624E282FD7700069509A /* DessertHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF624D282FD7700069509A /* DessertHomeViewController.swift */; };
+		B5FF6251282FD7700069509A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FF624F282FD7700069509A /* Main.storyboard */; };
+		B5FF6253282FD7720069509A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FF6252282FD7720069509A /* Assets.xcassets */; };
+		B5FF6256282FD7720069509A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FF6254282FD7720069509A /* LaunchScreen.storyboard */; };
+		B5FF6261282FD7720069509A /* PetalRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF6260282FD7720069509A /* PetalRestoTests.swift */; };
+		B5FF626B282FD7720069509A /* PetalRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF626A282FD7720069509A /* PetalRestoUITests.swift */; };
+		B5FF626D282FD7720069509A /* PetalRestoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF626C282FD7720069509A /* PetalRestoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5FF625D282FD7720069509A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5FF623E282FD7700069509A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5FF6245282FD7700069509A;
+			remoteInfo = PetalResto;
+		};
+		B5FF6267282FD7720069509A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5FF623E282FD7700069509A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5FF6245282FD7700069509A;
+			remoteInfo = PetalResto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5419101283D5F1500628FE3 /* DessertDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailViewModelTests.swift; sourceTree = "<group>"; };
+		B5A54FAD283490F700D27A85 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		B5A54FB12834931A00D27A85 /* Loopable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loopable.swift; sourceTree = "<group>"; };
+		B5A84EE62832A55300FC362C /* DessertDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailViewController.swift; sourceTree = "<group>"; };
+		B5A84EEC2832C1C400FC362C /* IngrediantsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngrediantsCell.swift; sourceTree = "<group>"; };
+		B5A84EEF28330F4900FC362C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B5A84EF12833108000FC362C /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
+		B5A84EF32833136100FC362C /* FetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		B5A84EF52833196400FC362C /* DessertHomeViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DessertHomeViewController+.swift"; sourceTree = "<group>"; };
+		B5A84EF728331BAD00FC362C /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
+		B5A84EFA2833239000FC362C /* DessertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertTableViewCell.swift; sourceTree = "<group>"; };
+		B5A84EFE283344EA00FC362C /* DessertDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailViewModel.swift; sourceTree = "<group>"; };
+		B5A84F002833466B00FC362C /* DessertDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailModel.swift; sourceTree = "<group>"; };
+		B5A84F0228334B1000FC362C /* DetailFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFetchRequest.swift; sourceTree = "<group>"; };
+		B5A84F0428334F2500FC362C /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
+		B5CC440D2833E77A00432713 /* DessertDetailView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DessertDetailView+.swift"; sourceTree = "<group>"; };
+		B5D773AC283C82DE006BC1B4 /* DessertViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModelTests.swift; sourceTree = "<group>"; };
+		B5FF6246282FD7700069509A /* PetalResto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetalResto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FF6249282FD7700069509A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5FF624B282FD7700069509A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5FF624D282FD7700069509A /* DessertHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertHomeViewController.swift; sourceTree = "<group>"; };
+		B5FF6250282FD7700069509A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5FF6252282FD7720069509A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5FF6255282FD7720069509A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5FF6257282FD7720069509A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FF625C282FD7720069509A /* PetalRestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetalRestoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FF6260282FD7720069509A /* PetalRestoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalRestoTests.swift; sourceTree = "<group>"; };
+		B5FF6266282FD7720069509A /* PetalRestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetalRestoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FF626A282FD7720069509A /* PetalRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalRestoUITests.swift; sourceTree = "<group>"; };
+		B5FF626C282FD7720069509A /* PetalRestoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalRestoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5FF6243282FD7700069509A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FF6259282FD7720069509A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FF6263282FD7720069509A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A54FAF2834910E00D27A85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5A54FAD283490F700D27A85 /* UIView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B5A54FB02834930300D27A85 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B5A54FB12834931A00D27A85 /* Loopable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B5A54FB3283495E200D27A85 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5FF624B282FD7700069509A /* SceneDelegate.swift */,
+				B5FF6249282FD7700069509A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5A84EE82832A56000FC362C /* DessertHomeController */ = {
+			isa = PBXGroup;
+			children = (
+				B5FF624D282FD7700069509A /* DessertHomeViewController.swift */,
+				B5A84EF52833196400FC362C /* DessertHomeViewController+.swift */,
+				B5A84EF12833108000FC362C /* DessertViewModel.swift */,
+				B5A84EF32833136100FC362C /* FetchRequest.swift */,
+				B5A84EF728331BAD00FC362C /* DessertModel.swift */,
+				B5A84EFA2833239000FC362C /* DessertTableViewCell.swift */,
+			);
+			path = DessertHomeController;
+			sourceTree = "<group>";
+		};
+		B5A84EEE28330F3100FC362C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B5A84EEF28330F4900FC362C /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B5A84EF928331C0D00FC362C /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				B5A84EE62832A55300FC362C /* DessertDetailViewController.swift */,
+				B5A84F0428334F2500FC362C /* DessertDetailView.swift */,
+				B5CC440D2833E77A00432713 /* DessertDetailView+.swift */,
+				B5A84EFE283344EA00FC362C /* DessertDetailViewModel.swift */,
+				B5A84F002833466B00FC362C /* DessertDetailModel.swift */,
+				B5A84F0228334B1000FC362C /* DetailFetchRequest.swift */,
+				B5A84EEC2832C1C400FC362C /* IngrediantsCell.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		B5FF623D282FD7700069509A = {
+			isa = PBXGroup;
+			children = (
+				B5FF6248282FD7700069509A /* PetalResto */,
+				B5FF625F282FD7720069509A /* PetalRestoTests */,
+				B5FF6269282FD7720069509A /* PetalRestoUITests */,
+				B5FF6247282FD7700069509A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5FF6247282FD7700069509A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5FF6246282FD7700069509A /* PetalResto.app */,
+				B5FF625C282FD7720069509A /* PetalRestoTests.xctest */,
+				B5FF6266282FD7720069509A /* PetalRestoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5FF6248282FD7700069509A /* PetalResto */ = {
+			isa = PBXGroup;
+			children = (
+				B5A54FB3283495E200D27A85 /* App */,
+				B5A54FB02834930300D27A85 /* Helpers */,
+				B5A54FAF2834910E00D27A85 /* Extensions */,
+				B5A84EEE28330F3100FC362C /* Network */,
+				B5A84EE82832A56000FC362C /* DessertHomeController */,
+				B5A84EF928331C0D00FC362C /* DetailView */,
+				B5FF624F282FD7700069509A /* Main.storyboard */,
+				B5FF6252282FD7720069509A /* Assets.xcassets */,
+				B5FF6254282FD7720069509A /* LaunchScreen.storyboard */,
+				B5FF6257282FD7720069509A /* Info.plist */,
+			);
+			path = PetalResto;
+			sourceTree = "<group>";
+		};
+		B5FF625F282FD7720069509A /* PetalRestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5FF6260282FD7720069509A /* PetalRestoTests.swift */,
+				B5D773AC283C82DE006BC1B4 /* DessertViewModelTests.swift */,
+				B5419101283D5F1500628FE3 /* DessertDetailViewModelTests.swift */,
+			);
+			path = PetalRestoTests;
+			sourceTree = "<group>";
+		};
+		B5FF6269282FD7720069509A /* PetalRestoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5FF626A282FD7720069509A /* PetalRestoUITests.swift */,
+				B5FF626C282FD7720069509A /* PetalRestoUITestsLaunchTests.swift */,
+			);
+			path = PetalRestoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FF6245282FD7700069509A /* PetalResto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FF6270282FD7720069509A /* Build configuration list for PBXNativeTarget "PetalResto" */;
+			buildPhases = (
+				B5FF6242282FD7700069509A /* Sources */,
+				B5FF6243282FD7700069509A /* Frameworks */,
+				B5FF6244282FD7700069509A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetalResto;
+			productName = PetalResto;
+			productReference = B5FF6246282FD7700069509A /* PetalResto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5FF625B282FD7720069509A /* PetalRestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FF6273282FD7720069509A /* Build configuration list for PBXNativeTarget "PetalRestoTests" */;
+			buildPhases = (
+				B5FF6258282FD7720069509A /* Sources */,
+				B5FF6259282FD7720069509A /* Frameworks */,
+				B5FF625A282FD7720069509A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5FF625E282FD7720069509A /* PBXTargetDependency */,
+			);
+			name = PetalRestoTests;
+			productName = PetalRestoTests;
+			productReference = B5FF625C282FD7720069509A /* PetalRestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5FF6265282FD7720069509A /* PetalRestoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FF6276282FD7720069509A /* Build configuration list for PBXNativeTarget "PetalRestoUITests" */;
+			buildPhases = (
+				B5FF6262282FD7720069509A /* Sources */,
+				B5FF6263282FD7720069509A /* Frameworks */,
+				B5FF6264282FD7720069509A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5FF6268282FD7720069509A /* PBXTargetDependency */,
+			);
+			name = PetalRestoUITests;
+			productName = PetalRestoUITests;
+			productReference = B5FF6266282FD7720069509A /* PetalRestoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5FF623E282FD7700069509A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B5FF6245282FD7700069509A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B5FF625B282FD7720069509A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B5FF6245282FD7700069509A;
+					};
+					B5FF6265282FD7720069509A = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B5FF6245282FD7700069509A;
+					};
+				};
+			};
+			buildConfigurationList = B5FF6241282FD7700069509A /* Build configuration list for PBXProject "PetalResto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5FF623D282FD7700069509A;
+			productRefGroup = B5FF6247282FD7700069509A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FF6245282FD7700069509A /* PetalResto */,
+				B5FF625B282FD7720069509A /* PetalRestoTests */,
+				B5FF6265282FD7720069509A /* PetalRestoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5FF6244282FD7700069509A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FF6256282FD7720069509A /* LaunchScreen.storyboard in Resources */,
+				B5FF6253282FD7720069509A /* Assets.xcassets in Resources */,
+				B5FF6251282FD7700069509A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FF625A282FD7720069509A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FF6264282FD7720069509A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5FF6242282FD7700069509A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A84EF42833136100FC362C /* FetchRequest.swift in Sources */,
+				B5A84EF22833108000FC362C /* DessertViewModel.swift in Sources */,
+				B5CC440E2833E77A00432713 /* DessertDetailView+.swift in Sources */,
+				B5A54FB22834931A00D27A85 /* Loopable.swift in Sources */,
+				B5FF624E282FD7700069509A /* DessertHomeViewController.swift in Sources */,
+				B5FF624A282FD7700069509A /* AppDelegate.swift in Sources */,
+				B5A84F012833466B00FC362C /* DessertDetailModel.swift in Sources */,
+				B5A84EF828331BAD00FC362C /* DessertModel.swift in Sources */,
+				B5A84EFF283344EA00FC362C /* DessertDetailViewModel.swift in Sources */,
+				B5A84EF62833196400FC362C /* DessertHomeViewController+.swift in Sources */,
+				B5A54FAE283490F700D27A85 /* UIView+.swift in Sources */,
+				B5A84EE72832A55300FC362C /* DessertDetailViewController.swift in Sources */,
+				B5A84F0528334F2500FC362C /* DessertDetailView.swift in Sources */,
+				B5A84EED2832C1C400FC362C /* IngrediantsCell.swift in Sources */,
+				B5A84EF028330F4900FC362C /* Network.swift in Sources */,
+				B5A84EFB2833239000FC362C /* DessertTableViewCell.swift in Sources */,
+				B5A84F0328334B1000FC362C /* DetailFetchRequest.swift in Sources */,
+				B5FF624C282FD7700069509A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FF6258282FD7720069509A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5419102283D5F1500628FE3 /* DessertDetailViewModelTests.swift in Sources */,
+				B5FF6261282FD7720069509A /* PetalRestoTests.swift in Sources */,
+				B5D773AD283C82DE006BC1B4 /* DessertViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FF6262282FD7720069509A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FF626B282FD7720069509A /* PetalRestoUITests.swift in Sources */,
+				B5FF626D282FD7720069509A /* PetalRestoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5FF625E282FD7720069509A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5FF6245282FD7700069509A /* PetalResto */;
+			targetProxy = B5FF625D282FD7720069509A /* PBXContainerItemProxy */;
+		};
+		B5FF6268282FD7720069509A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5FF6245282FD7700069509A /* PetalResto */;
+			targetProxy = B5FF6267282FD7720069509A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5FF624F282FD7700069509A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FF6250282FD7700069509A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5FF6254282FD7720069509A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FF6255282FD7720069509A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5FF626E282FD7720069509A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5FF626F282FD7720069509A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5FF6271282FD7720069509A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2495YK4SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetalResto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stark.PetalResto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5FF6272282FD7720069509A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2495YK4SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetalResto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stark.PetalResto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5FF6274282FD7720069509A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2495YK4SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stark.PetalRestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetalResto.app/PetalResto";
+			};
+			name = Debug;
+		};
+		B5FF6275282FD7720069509A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2495YK4SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stark.PetalRestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetalResto.app/PetalResto";
+			};
+			name = Release;
+		};
+		B5FF6277282FD7720069509A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2495YK4SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stark.PetalRestoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetalResto;
+			};
+			name = Debug;
+		};
+		B5FF6278282FD7720069509A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2495YK4SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stark.PetalRestoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetalResto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5FF6241282FD7700069509A /* Build configuration list for PBXProject "PetalResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FF626E282FD7720069509A /* Debug */,
+				B5FF626F282FD7720069509A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FF6270282FD7720069509A /* Build configuration list for PBXNativeTarget "PetalResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FF6271282FD7720069509A /* Debug */,
+				B5FF6272282FD7720069509A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FF6273282FD7720069509A /* Build configuration list for PBXNativeTarget "PetalRestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FF6274282FD7720069509A /* Debug */,
+				B5FF6275282FD7720069509A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FF6276282FD7720069509A /* Build configuration list for PBXNativeTarget "PetalRestoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FF6277282FD7720069509A /* Debug */,
+				B5FF6278282FD7720069509A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5FF623E282FD7700069509A /* Project object */;
+}
